@@ -1,0 +1,13 @@
+# 统一换行符：R 包要求 LF（否则 R CMD build 会警告 CRLF）
+* text=auto
+*.R       text eol=lf
+*.Rmd     text eol=lf
+*.Rd       text eol=lf
+*.Rproj   text eol=lf
+*.yaml    text eol=lf
+*.yml     text eol=lf
+*.md       text eol=lf
+*.typ     text eol=lf
+DESCRIPTION text eol=lf
+NAMESPACE   text eol=lf
+LICENSE     text eol=lf
