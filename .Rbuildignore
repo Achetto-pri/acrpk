@@ -1,4 +1,4 @@
-^tidydb\.Rproj$
+^.*\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^data-raw$

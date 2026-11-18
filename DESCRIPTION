@@ -1,14 +1,17 @@
-Package: rpkg.template
-Title: What the Package Does (One Line, Title Case)
+Package: acrpk
+Title: Tools for Spirometry Data Analysis
 Version: 0.1.0.9000
-Authors@R: c(
-  person("Dongdong", "Kong", role = c("aut", "cre"), 
-         email = "kongdd.sysu@gmail.com", comment = c(ORCID = "0000-0003-1836-8172")))
-Description: What the package does (one paragraph).
+Authors@R:
+    person("Shun", "Zhang", role = c("aut", "cre"),
+           email = "shishuang270@gmail.com")
+Description: Provides a collection of utilities for importing, cleaning and
+    analysing spirometry (pulmonary function) data.
 License: MIT + file LICENSE
+URL: https://github.com/Achetto-pri/acrpk
+BugReports: https://github.com/Achetto-pri/acrpk/issues
 Imports:
     magrittr
-Suggests: 
+Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
